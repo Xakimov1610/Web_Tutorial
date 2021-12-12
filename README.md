@@ -27,4 +27,13 @@
 - `absolute` path  - < **a** href="https://google.com"> o'tish-link </**a**>
 - `Target` atribute - < **a** href="https://google.com" target="_blank"> o'tish-link </**a**> - yangi oynada ochib berish uchun.
 - `Table` —> **Thead** ( Jadval boshi ) —> **tr** ( Jadval qatori ) —> **th** ( table head data - jadval boshi ma'lumoti ) —> **tbody** ( table body  ) —> **td** ( table date )
--
+- `Id` : id nomi orqali stillash.
+
+```html
+<p id="birinchi"> Lorem ipsum </p>
+<style>
+#birinchi{
+	color: red;
+}
+</style>
+```
