@@ -48,3 +48,43 @@
 }
 </style>
 ```
+`Block` elementlar -  *Har doim yangi qatordan boshlanadi.*
+
+- **Block elementlar ro'yhati**
+    - `<article>`
+    - `<aside>`
+    - `<dd>`
+    - `<div>`
+    - `<footer>`
+    - `<from>`
+    - `<h1>`-`<h6>`
+    - `<header>`
+    - `<hr>`
+    - `<li>`
+    - `<main>`
+    - `<nav>`
+    - `<ol>`
+    - `<p>`
+    - `<section>`
+    - `<table>`
+    - `<ul>`
+    - `<video>`
+
+`Inline` elementlar - *ekranda faqatgina o'ziga yetarli joyni oladi va boshqa inline element yoniga joylashaveradi.*
+
+- **Inline elementlar ro'yhati**
+    - `<a>`
+    - `<b>`
+    - `<br>`
+    - `<button>`
+    - `<i>`
+    - `<img>`
+    - `<input>`
+    - `<label>`
+    - `<select>`
+    - `<small>`
+    - `<span>`
+    - `<strong>`
+    - `<sub>`
+    - `<sup>`
+    - `<textarea>`
