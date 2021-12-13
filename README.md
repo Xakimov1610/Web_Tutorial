@@ -88,3 +88,7 @@
     - `<sub>`
     - `<sup>`
     - `<textarea>`
+
+`div` - *konteyner deb tushunsa bo'ladi. Bu block element hisoblanib o'z ichiga Block va inline elementlarni oladi.*
+
+`span` - *inline inline elementlar uchun Konteyner .*
