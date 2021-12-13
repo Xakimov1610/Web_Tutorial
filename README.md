@@ -36,6 +36,8 @@
 	color: red;
 }
 </style>
+```
+
 - `Class` lar - id dan farqi bunda guruhlash mumkun va bir class ga 1 dan ortiq  class ni ham berish mumkun  —> **class**="**qizil** center" (orasida hech qanday belgi bo'lmaydi).
 
 ```html
@@ -45,5 +47,4 @@
 	color: res;
 }
 </style>
-```
 ```
