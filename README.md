@@ -36,4 +36,14 @@
 	color: red;
 }
 </style>
+- `Class` lar - id dan farqi bunda guruhlash mumkun va bir class ga 1 dan ortiq  class ni ham berish mumkun  —> **class**="**qizil** center" (orasida hech qanday belgi bo'lmaydi).
+
+```html
+<p class="qizil"> Lorem ipsum </p>
+<style>
+.qizil{
+	color: res;
+}
+</style>
+```
 ```
