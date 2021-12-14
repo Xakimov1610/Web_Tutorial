@@ -94,13 +94,160 @@
 `span` - *inline inline elementlar uchun Konteyner .*
 
 - `Form` "tagi" —> **label** , **input**, **button**, ***for***(atributi).
+    - `Input`
+        - `<input type="button">`
+        - `<input type="checkbox">`
+        - `<input type="color">`
+        - `<input type="date">`
+        - `<input type="datetime-local">`
+        - `<input type="email">`
+        - `<input type="file">`
+        - `<input type="hidden">`
+        - `<input type="image">`
+        - `<input type="month">`
+        - `<input type="number">`
+        - `<input type="password">`
+        - `<input type="radio">`
+        - `<input type="range">`
+        - `<input type="reset">`
+        - `<input type="search">`
+        - `<input type="submit">`
+        - `<input type="tel">`
+        - `<input type="text">`
+        - `<input type="time">`
+        - `<input type="url">`
+        - `<input type="week">`
+        - 
+        
+        ```html
+        <form action="/server.dotnet">
+              <label for="username">Username</label>
+              <input type="text" name="username" id="username"> <br><br>
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password"> <br><br>
+              <label for="data">Data</label>
+              <input type="date" name="data" id="data"> <br><br>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email"> <br><br>
+              <label for="image">Image</label>
+              <input type="file" name="image" id="image"> <br><br>
+              <label for="search">Search</label>
+              <input type="search" name="search" id="search"> <br><br>
+              <label for="tel">Tel</label>
+              <input type="tel" name="tel" id="tel"> <br><br>
+              <hr>
+              <label for="student">Student</label>
+              <input type="checkbox" name="student" id="student"> <br><br>
+              <label for="erkak">Erkak</label>
+              <input type="radio" name="gender" value="male"> 
+              <label for="ayol">Ayol</label>
+              <input type="radio" name="gender" value="female"> <br><br>
+              <input type="submit" value="Submit">
+              <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+        </form>
+        ```
+        
+    - `select`
+    - lable
+    - textarea
+    - button
+    - option
+    
+- `Head` Elementlari
+    - `title`
+    - `style`
+    - `link`
+        
+        ```html
+        <link rel="stylesheet" href="./stillar.css">
+        <link rel="icon" type="image/png" href="../CSS-Cheat-Sheet-OverAPI.com_.png">
+        ```
+        
+    - `meta`
+        
+        ```html
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML darslar, CSS darslar, Dasturlash">
+        <meta name="auther" content="Xakimov Nosirbek">
+        <meta name="description" content="Dasturlash bo'yicha kurslar web sahifasi">
+        ```
+        
+    - `script`
+        
+        ```html
+        <script>
+            alert('JavaScript yuklandi (ok) ni bosing');
+        </script>
+        ```
+        
+- `Layouts` - Planirovka
+    
+    ![photo_2021-12-13_12-13-31.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5b04e999-72bb-4728-b54e-646530c147d3/photo_2021-12-13_12-13-31.jpg)
     
     ```html
-    <form action="/server.dotnet" method="get">
-          <label for="username">Username</label>
-          <input type="text" name="username" id="username"><br><br>
-          <label for="password">Password</label>
-          <input type="password" name="password" id="password"><br><br>
-          <button type="submit">Login</button>
-     </form>
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Layout</title>
+            <style>
+                .box{
+                    background-color: blue;
+                    font-size: 20px;
+                    color: white;
+                    text-align: center;
+                    margin-top: 1px;
+                }
+                header{
+                    height: 100px;
+                    line-height: 100px;
+                }
+                nav{
+                   
+                    height: 100px;
+                    line-height: 100px;
+                }
+                section{
+                    height: 500;
+                    line-height: 500px;
+                    width: 70%;
+                    float: left;
+                    
+                }
+                aside{
+                    height: 500;
+                    line-height: 500px;
+                    width: 30%;
+                    float: left;
+                }
+                footer{
+                    height: 100px;
+                    margin-top: 1px;
+                    line-height: 100px;
+                    width: 100%;
+                    float: left;
+                }
+            </style>
+        </head>
+        <body>
+            <header class="box">
+                Header
+            </header>
+            <nav class="box">
+                Nav
+            </nav>
+            <section class="box">
+                Section
+            </section>
+            <aside class="box">
+                Aside
+            </aside>
+            <footer class="box">
+                Footer
+            </footer>
+        </body>
+    </html>
     ```
+    
+- `Semantics` - Ma'noli elementlar
+    
+    ![photo_2021-12-13_12-15-06.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ed719b12-9dbc-4e96-9833-bfade14244b3/photo_2021-12-13_12-15-06.jpg)
