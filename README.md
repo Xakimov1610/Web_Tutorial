@@ -251,3 +251,15 @@
 - `Semantics` - Ma'noli elementlar
     
     ![photo_2021-12-13_12-15-06.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ed719b12-9dbc-4e96-9833-bfade14244b3/photo_2021-12-13_12-15-06.jpg)
+
+- `Best Practices` - Qoidala
+    - 1 Kod youzish bo'yicha qoidalar
+        - Hamma <<`tag`>> larni kichik xarf bilan yozing
+        - <<`Indentation`>> dan ( otstup ) to'g'ri foydalaning
+    - 2 Inline style'lar ishlatmang
+    - 3 Rasm uchun <<`alt`>> attributini ko'rsatib o'ting
+    - 4 Har bir sahifada bittadan ko'p bo'lmagan <`h1`> elementi ishlating
+    - 5 <`title`> va <`meta`> elementlarida to'g'ri foydalaning
+    - 6 `HTML` validatorlaridan foydalaning
+        
+        [https://validator.w3.org](https://validator.w3.org/)
